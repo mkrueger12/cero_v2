@@ -18,6 +18,10 @@ django-allauth = "*"
 django-debug-toolbar = "*"
 django-extensions = "*"
 psycopg2 = "*"
+pylint-django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+google-cloud-bigquery = "*"
 
 [dev-packages]
 
