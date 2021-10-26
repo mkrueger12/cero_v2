@@ -11,6 +11,13 @@ update = "*"
 setuptools = "*"
 wheel = "*"
 sentry-sdk = "*"
+django-environ = "*"
+whitenoise = "*"
+django-crispy-forms = "*"
+django-allauth = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
