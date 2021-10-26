@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../cero_v1/.idea/cero_v1.iml" filepath="$PROJECT_DIR$/../cero_v1/.idea/cero_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cero_v2.iml" filepath="$PROJECT_DIR$/.idea/cero_v2.iml" />
     </modules>
   </component>
