@@ -5,6 +5,12 @@ name = "pypi"
 
 [packages]
 cookiecutter = ">=1.7.0"
+django = "*"
+environ = "*"
+update = "*"
+setuptools = "*"
+wheel = "*"
+sentry-sdk = "*"
 
 [dev-packages]
 
