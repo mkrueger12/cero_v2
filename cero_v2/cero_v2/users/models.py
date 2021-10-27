@@ -1,8 +1,13 @@
 from django.contrib.auth.models import AbstractUser
 from django.db.models import CharField
+from django.db import models
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
+import pandas as pd
 
+# read in areas data
+
+areas = pd.read_csv(r'/Users/maxwellkrueger/Documents/Ceros/cero_v2/cero_v2/locale/areas.csv')
 
 class User(AbstractUser):
     """Default user for Cero v2."""
@@ -20,3 +25,8 @@ class User(AbstractUser):
 
         """
         return reverse("users:detail", kwargs={"username": self.username})
+
+
+class EdgarData(model.Models):
+
+    geo = model.CharField(choices=,)

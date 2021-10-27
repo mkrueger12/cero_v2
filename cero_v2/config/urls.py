@@ -13,6 +13,7 @@ urlpatterns = [
     # User management
     path("users/", include("cero_v2.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
+    path('api-auth/', include('rest_framework.urls')),
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
