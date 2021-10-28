@@ -24,6 +24,7 @@ django-cors-headers = "*"
 djangorestframework-simplejwt = "*"
 cython = "*"
 numpy = "*"
+pytest = "*"
 
 [dev-packages]
 
