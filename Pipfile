@@ -25,6 +25,9 @@ djangorestframework-simplejwt = "*"
 cython = "*"
 numpy = "*"
 pytest = "*"
+coverage = "*"
+django-coverage-plugin = "*"
+factory-boy = "*"
 
 [dev-packages]
 

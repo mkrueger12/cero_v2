@@ -9,6 +9,14 @@ import pandas as pd
 
 areas = pd.read_csv(r'/Users/maxwellkrueger/Documents/Ceros/cero_v2/cero_v2/locale/areas.csv')
 
+all_areas = []
+
+for i in areas:
+
+    data = (i, i)
+    all_areas.append(data)
+
+
 class User(AbstractUser):
     """Default user for Cero v2."""
 
@@ -27,6 +35,9 @@ class User(AbstractUser):
         return reverse("users:detail", kwargs={"username": self.username})
 
 
-class EdgarData(model.Models):
+class UrbanArea(models.Model):
 
-    geo = model.CharField(choices=,)
+    uac = models.CharField(choices=all_areas, max_length=40)
+
+    def __str__(self):
+        return self.name
